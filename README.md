@@ -24,7 +24,7 @@ Geometry Breakdown is a desktop tool for visualizing and analyzing geometric sha
 ### Run from source
 
 1. Clone this repository:
-# git clone https://github.com/the-math-gremlin/Geometry-Breakdown/.git
+# git clone https://github.com/the-math-gremlin/Geometry-Breakdown.git
 # cd geometry-breakdown
 
 2. Install dependencies:
