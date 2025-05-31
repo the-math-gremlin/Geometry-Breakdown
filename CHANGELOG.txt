@@ -1,0 +1,42 @@
+# Changelog
+
+All notable changes to this project will be documented here.
+
+This project follows [Semantic Versioning](https://semver.org/) and the structure of [Keep a Changelog](https://keepachangelog.com/).
+
+---
+
+## [1.0.0] – 2025-05-30
+
+### Added
+- Full graphical UI for analyzing geometric shapes using Tkinter and Matplotlib
+- Support for:
+  - Circle
+  - Ellipse (with eccentricity and golden ratio check)
+  - Triangle (with angle detection and triangle classification)
+  - Rectangle (with golden ratio detection)
+  - Regular Polygon (with radius, side length, and perimeter logic)
+  - Irregular Polygon with custom vertex input
+  - Spirals (Archimedean, Logarithmic, Fermat, and Hyperbolic)
+- Visualizer with optional annotations and export to PNG
+- Summary output for all shapes with detailed metrics
+- Irregular Polygon enhancements:
+  - Accepts multiple input formats for vertices
+  - Handles self-intersecting polygons and computes correct area using Shapely
+- Spiral enhancements:
+  - Accurate arc length calculation (analytical or numerical depending on type)
+  - Final radius and coordinates of spiral endpoint
+- Shape Comparison window:
+  - Compare any two analyzed shapes side-by-side
+  - Smart key matching for fields like Perimeter vs Circumference
+- Graph Export:
+  - Save clean image or image with metrics summary
+  - Batch export (all or selected shapes)
+- UI features:
+  - Dynamic window tiling based on monitor resolution
+  - Scrollable canvas with automatic layout
+  - Golden Ratio detection across supported shapes
+  - Button and font styling
+  - Help tooltips for custom input (e.g., irregular polygon syntax)
+
+
